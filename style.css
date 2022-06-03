@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.circle body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px;
+}
+
+.first-circle {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-left: 5px solid white;
+    color: blue;
+    filter: blur(10px);
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.second-circle {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-left: 5px solid white;
+    color: blue;
+    filter: blur(10px);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.third-circle {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-left: 5px solid white;
+    color: blue;
+    filter: blur(10px);
+    animation: animate2 1s linear infinite;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.a {
+    font-size: 30px;
+}
+
+.c {
+    position: fixed;
+    top: 40%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    filter: blur(5px);
+}
+
+#saat {
+    position: fixed;
+    top: 48%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    filter: blur(5px);
+}
+
+.d {
+    position: fixed;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: aqua;
+    filter: blur(5px);
+}
+
+#dk {
+    position: fixed;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: aqua;
+    filter: blur(5px);
+}
+
+.e {
+    position: fixed;
+    top: 40%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    filter: blur(5px);
+}
+
+#saniye {
+    position: fixed;
+    top: 48%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    filter: blur(5px);
+}
